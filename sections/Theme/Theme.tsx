@@ -267,13 +267,6 @@ function Section({
     .map(([name, value]) => ({ name, value }));
 
   return (
-<<<<<<< HEAD
-    <SiteTheme
-      fonts={font ? [font] : undefined}
-      variables={variables}
-      colorScheme={colorScheme === "any" ? undefined : colorScheme}
-    />
-=======
     <>
       <style>
         {`
@@ -295,7 +288,6 @@ function Section({
         colorScheme={colorScheme === "any" ? undefined : colorScheme}
       />
     </>
->>>>>>> bfa48c8 (End)
   );
 }
 
@@ -305,13 +297,8 @@ export function Preview(props: Props) {
     <>
       {
         /* This stylesheet is used to simulate the colors from the admin's color schema (admin's light or dark mode), which are not accessible in the site's color schema.
-<<<<<<< HEAD
-        * This is a temporary solution until the admin's color schema is accessible.
-        * TODO(@carol): Change this temporary solution / discuss with designers a doable approach
-=======
        * This is a temporary solution until the admin's color schema is accessible.
        * TODO(@carol): Change this temporary solution / discuss with designers a doable approach
->>>>>>> bfa48c8 (End)
        */
       }
       <style>
@@ -539,16 +526,6 @@ const TextColorsPreview = () => {
   );
 };
 
-<<<<<<< HEAD
-const PreviewContainer = (
-  { mode, title, children, codeString }: {
-    mode: string;
-    title: string;
-    children: ComponentChildren;
-    codeString: string;
-  },
-) => {
-=======
 const PreviewContainer = ({
   mode,
   title,
@@ -560,7 +537,6 @@ const PreviewContainer = ({
   children: ComponentChildren;
   codeString: string;
 }) => {
->>>>>>> bfa48c8 (End)
   const borderClass = mode === "dark"
     ? "border-color-dark"
     : "border-color-light";

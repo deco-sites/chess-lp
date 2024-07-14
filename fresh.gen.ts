@@ -3,26 +3,18 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $_app from "./routes/_app.tsx";
-<<<<<<< HEAD
-
-=======
 import * as $AnimatedImage from "./islands/AnimatedImage.tsx";
 import * as $OurMission from "./islands/OurMission.tsx";
->>>>>>> bfa48c8 (End)
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
     "./routes/_app.tsx": $_app,
   },
-<<<<<<< HEAD
-  islands: {},
-=======
   islands: {
     "./islands/AnimatedImage.tsx": $AnimatedImage,
     "./islands/OurMission.tsx": $OurMission,
   },
->>>>>>> bfa48c8 (End)
   baseUrl: import.meta.url,
 } satisfies Manifest;
 
