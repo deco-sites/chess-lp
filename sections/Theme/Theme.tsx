@@ -267,11 +267,35 @@ function Section({
     .map(([name, value]) => ({ name, value }));
 
   return (
+<<<<<<< HEAD
     <SiteTheme
       fonts={font ? [font] : undefined}
       variables={variables}
       colorScheme={colorScheme === "any" ? undefined : colorScheme}
     />
+=======
+    <>
+      <style>
+        {`
+          @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+          
+          @font-face {
+            font-family: 'OldSTDTT';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap') format('opentype');
+          }
+        `}
+      </style>
+      <SiteTheme
+        fonts={font ? [font] : undefined}
+        variables={variables}
+        colorScheme={colorScheme === "any" ? undefined : colorScheme}
+      />
+    </>
+>>>>>>> bfa48c8 (End)
   );
 }
 
@@ -281,8 +305,13 @@ export function Preview(props: Props) {
     <>
       {
         /* This stylesheet is used to simulate the colors from the admin's color schema (admin's light or dark mode), which are not accessible in the site's color schema.
+<<<<<<< HEAD
         * This is a temporary solution until the admin's color schema is accessible.
         * TODO(@carol): Change this temporary solution / discuss with designers a doable approach
+=======
+       * This is a temporary solution until the admin's color schema is accessible.
+       * TODO(@carol): Change this temporary solution / discuss with designers a doable approach
+>>>>>>> bfa48c8 (End)
        */
       }
       <style>
@@ -510,6 +539,7 @@ const TextColorsPreview = () => {
   );
 };
 
+<<<<<<< HEAD
 const PreviewContainer = (
   { mode, title, children, codeString }: {
     mode: string;
@@ -518,6 +548,19 @@ const PreviewContainer = (
     codeString: string;
   },
 ) => {
+=======
+const PreviewContainer = ({
+  mode,
+  title,
+  children,
+  codeString,
+}: {
+  mode: string;
+  title: string;
+  children: ComponentChildren;
+  codeString: string;
+}) => {
+>>>>>>> bfa48c8 (End)
   const borderClass = mode === "dark"
     ? "border-color-dark"
     : "border-color-light";

@@ -5,14 +5,40 @@
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/Footer.tsx";
+<<<<<<< HEAD
 import * as $$$$$$1 from "./sections/ItWorks.tsx";
 import * as $$$$$$2 from "./sections/Theme/Theme.tsx";
+=======
+import * as $$$$$$1 from "./sections/FullImageScroll.tsx";
+import * as $$$$$$2 from "./sections/Header.tsx";
+import * as $$$$$$3 from "./sections/Hero.tsx";
+import * as $$$$$$4 from "./sections/ItWorks.tsx";
+import * as $$$$$$5 from "./sections/Investors.tsx";
+import * as $$$$$$6 from "./sections/OurMission.tsx";
+import * as $$$$$$7 from "./sections/Products.tsx";
+import * as $$$$$$8 from "./sections/PageLoadingAnimation.tsx";
+import * as $$$$$$9 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$10 from "./sections/WorkWithUs.tsx";
+>>>>>>> bfa48c8 (End)
 
 const manifest = {
   "sections": {
     "site/sections/Footer.tsx": $$$$$$0,
+<<<<<<< HEAD
     "site/sections/ItWorks.tsx": $$$$$$1,
     "site/sections/Theme/Theme.tsx": $$$$$$2,
+=======
+    "site/sections/FullImageScroll.tsx": $$$$$$1,
+    "site/sections/Header.tsx": $$$$$$2,
+    "site/sections/Hero.tsx": $$$$$$3,
+    "site/sections/ItWorks.tsx": $$$$$$4,
+    "site/sections/OurInvestors.tsx": $$$$$$5,
+    "site/sections/OurMission.tsx": $$$$$$6,
+    "site/sections/OurProducts.tsx": $$$$$$7,
+    "site/sections/PageLoadingAnimation.tsx": $$$$$$8,
+    "site/sections/Theme/Theme.tsx": $$$$$$9,
+    "site/sections/WorkWithUs.tsx": $$$$$$10,
+>>>>>>> bfa48c8 (End)
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,

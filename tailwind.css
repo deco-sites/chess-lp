@@ -1,12 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 
 @layer base {
 
   /* Allow changing font family via CMS */
   html {
+<<<<<<< HEAD
     font-family: var(--font-family);
+=======
+    font-family: "Old Standard TT", var(--font-family); /*Fundamental change in Neutral.json and Theme.jsx*/
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #111;
+>>>>>>> bfa48c8 (End)
   }
 
   /** Remove default styles from input[type=number] */

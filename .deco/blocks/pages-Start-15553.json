@@ -3,7 +3,72 @@
   "path": "/",
   "sections": [
     {
+<<<<<<< HEAD
       "__resolveType": "Footer"
+=======
+      "__resolveType": "site/sections/PageLoadingAnimation.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Header.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx"
+    },
+    {
+      "__resolveType": "site/sections/OurMission.tsx"
+    },
+    {
+      "__resolveType": "site/sections/OurProducts.tsx"
+    },
+    {
+      "__resolveType": "site/sections/FullImageScroll.tsx"
+    },
+    {
+      "__resolveType": "site/sections/OurInvestors.tsx"
+    },
+    {
+      "__resolveType": "site/sections/WorkWithUs.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "contactUs": {
+        "title": "Contact us",
+        "text": [
+          "<p>General Requests: <strong><a href=\"mailto:help@endgame!.com\" data-mce-href=\"mailto:help@endgame!.com\" data-mce-selected=\"inline-boundary\">help@endgame!.com﻿</a></strong></p>",
+          "<p>Apply to Positions: <strong><a href=\"mailto:careers@endgame.io\" data-mce-href=\"careers:help@endgame!.com\" data-mce-selected=\"inline-boundary\">careers@endgame!.com﻿</a></strong></p>",
+          "<p>Collaboration: <strong><a href=\"mailto:enterprise@endgame!.com\" data-mce-href=\"mailto:enterprise@endgame!.com\" data-mce-selected=\"inline-boundary\">enterprise@endgame!.com</a></strong></p>"
+        ]
+      },
+      "footerBottom": {
+        "logo": "https://images.vexels.com/content/254450/preview/king-chess-piece-simple-silhouette-5c1450.png",
+        "logoUrl": "/",
+        "copyright": "© 2024 Endgame, Inc. Copyright",
+        "footerColumns": [
+          {
+            "text": [
+              {
+                "content": "<p><a href=\"https://www.endgame!.com/\" target=\"_blank\" data-mce-href=\"https://www.endgame!.com/\" data-mce-selected=\"inline-boundary\">Endgame</a></p>"
+              },
+              {
+                "content": "<p><a href=\"https://www.endgame!.com/zenith/\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.endgame!.com/zenith/\" data-mce-selected=\"inline-boundary\">Zenith</a></p>"
+              }
+            ],
+            "title": "Products"
+          },
+          {
+            "text": [
+              {
+                "content": "<p><a href=\"https://www.endgame!.com/news\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.endgame!.com/news\" data-mce-selected=\"inline-boundary\">﻿Press</a></p>"
+              },
+              {
+                "content": "<p><a href=\"/jobs\" data-mce-href=\"../../../jobs\" data-mce-selected=\"inline-boundary\">﻿Work with us</a></p>"
+              }
+            ],
+            "title": "Company"
+          }
+        ]
+      }
+>>>>>>> bfa48c8 (End)
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
